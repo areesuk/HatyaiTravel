@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allspots"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="All spots" />
+        <item
+            android:id="@+id/nav_Food"
+            android:icon="@mipmap/ic_local_dining_white_24dp"
+            android:title="Food and Drink" />
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="Hotel" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="Shopping" />
+        <item
+            android:id="@+id/nav_night"
+            android:icon="@drawable/ic_local_bar_black_24dp"
+            android:title="Nightlife" />
+    </group>
+
+</menu>
